@@ -5,7 +5,7 @@ const PORT = 3000
 
 app.get('/hola', (req, res) => {
     console.log('GET /hola...')
-    res.send('Hola mundo desde ExpressJS!')
+    res.send('Hola mundo desde ExpressJS! Texto actualizado desde Linux')
 })
 
 app.listen(PORT, () => {
